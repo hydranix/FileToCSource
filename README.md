@@ -1,1 +1,14 @@
 # FileToCSource
+
+
+compile with:
+  g++ -o FileToCSource FileToCSource.cpp
+  
+  
+to use:
+  ./FileToCSource /path/to/infile /path/to/outfile.c
+  
+  
+Output (first 16 bytes of /usr/bin/g++):
+
+char filedata[] = {0x7f, 0x45, 0x4c, 0x46, 0x02, 0x01, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
